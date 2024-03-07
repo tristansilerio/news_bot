@@ -8,7 +8,7 @@ Send me email every morning with top news headlines of the day so that I can qui
 ## Implementation:
 Using the [News API](https://newsapi.org/), I was able to grab the news information that I wanted (i.e. business, US news, international, etc.). From there, I used The Simple Mail Transfer Protocol (SMTP) and Secure Sockets Layer (SSL) in Python to access my email address and send myself and email with the formatted data from the News API. 
 
-## TODO: 
+## Notes/ToDo: 
 Everything is functionally working, just need to hookup code to a server that is running 24/7 so that I do not have to reply on computer staying open
 
 
