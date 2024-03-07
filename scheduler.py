@@ -3,9 +3,9 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 from main import my_function
 sched = BlockingScheduler()
 
-@sched.scheduled_job('interval', hours=1)
+@sched.scheduled_job('cron', hour=8)
 def scheduled_job():
-    print('This job is run every hour.')
+    print('This job is run every day at 8 AM.')
     my_function()
 
 sched.start()
